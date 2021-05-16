@@ -1,0 +1,93 @@
+/snap/clion/151/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yaroslav4work/CLionProjects/CppWebAPI
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++
+compiler.version=9
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+conanfile.txt: Installing package
+Requirements
+    boost/1.73.0 from 'conan-center' - Cache
+    bzip2/1.0.8 from 'conan-center' - Cache
+    libiconv/1.16 from 'conan-center' - Cache
+    zlib/1.2.11 from 'conan-center' - Cache
+Packages
+    boost/1.73.0:d9d3e501899335bccbe5205508f9a4801424ce7d - Cache
+    bzip2/1.0.8:da606cf731e334010b0bf6e85a2a6f891b9f36b0 - Cache
+    libiconv/1.16:6af9cc7cb931c5ad942174fd7838eb655717c709 - Cache
+    zlib/1.2.11:6af9cc7cb931c5ad942174fd7838eb655717c709 - Cache
+
+Installing (downloading, building) binaries...
+bzip2/1.0.8: Already installed!
+bzip2/1.0.8: Appending PATH environment variable: /home/yaroslav4work/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/bin
+libiconv/1.16: Already installed!
+libiconv/1.16: Appending PATH environment var: /home/yaroslav4work/.conan/data/libiconv/1.16/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/bin
+zlib/1.2.11: Already installed!
+boost/1.73.0: Already installed!
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+boost/1.73.0: WARN: Picked up a system libbacktrace library
+-- Conan: Adjusting output directories
+-- Conan: Using cmake targets configuration
+-- Library boost_contract found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_contract.a
+-- Library boost_coroutine found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_coroutine.a
+-- Library boost_fiber_numa found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_fiber_numa.a
+-- Library boost_fiber found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_fiber.a
+-- Library boost_context found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_context.a
+-- Library boost_graph found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_graph.a
+-- Library boost_iostreams found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_iostreams.a
+-- Library boost_log_setup found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_log_setup.a
+-- Library boost_log found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_log.a
+-- Library boost_locale found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_locale.a
+-- Library boost_math_c99 found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_c99.a
+-- Library boost_math_c99f found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_c99f.a
+-- Library boost_math_c99l found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_c99l.a
+-- Library boost_math_tr1 found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_tr1.a
+-- Library boost_math_tr1f found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_tr1f.a
+-- Library boost_math_tr1l found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_math_tr1l.a
+-- Library boost_nowide found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_nowide.a
+-- Library boost_program_options found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_program_options.a
+-- Library boost_random found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_random.a
+-- Library boost_regex found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_regex.a
+-- Library boost_stacktrace_addr2line found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_stacktrace_addr2line.a
+-- Library boost_stacktrace_backtrace found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_stacktrace_backtrace.a
+-- Library boost_stacktrace_basic found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_stacktrace_basic.a
+-- Library boost_stacktrace_noop found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_stacktrace_noop.a
+-- Library boost_timer found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_timer.a
+-- Library boost_type_erasure found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_type_erasure.a
+-- Library boost_thread found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_thread.a
+-- Library boost_atomic found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_atomic.a
+-- Library boost_chrono found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_chrono.a
+-- Library boost_container found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_container.a
+-- Library boost_date_time found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_date_time.a
+-- Library boost_unit_test_framework found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_unit_test_framework.a
+-- Library boost_prg_exec_monitor found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_prg_exec_monitor.a
+-- Library boost_test_exec_monitor found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_test_exec_monitor.a
+-- Library boost_exception found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_exception.a
+-- Library boost_wave found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_wave.a
+-- Library boost_filesystem found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_filesystem.a
+-- Library boost_system found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_system.a
+-- Library boost_wserialization found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_wserialization.a
+-- Library boost_serialization found /home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/lib/libboost_serialization.a
+-- Library z found /home/yaroslav4work/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib/libz.a
+-- Library bz2 found /home/yaroslav4work/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/lib/libbz2.a
+-- Library iconv found /home/yaroslav4work/.conan/data/libiconv/1.16/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib/libiconv.a
+-- Library charset found /home/yaroslav4work/.conan/data/libiconv/1.16/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/lib/libcharset.a
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug
+-- Conan: Compiler GCC>=5, checking major version 9
+-- Conan: Checking correct version: 9
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug

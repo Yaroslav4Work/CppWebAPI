@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpResponse.cpp
+HttpResponse.h
+/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpResponse.h
+utility
+-
+
+/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpResponse.h
+string
+-
+vector
+-
+array
+-
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppWebAPI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppWebAPI">
+				<Option output="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/bin/CppWebAPI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/libiconv/1.16/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppWebAPI"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppWebAPI/fast">
+				<Option output="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/bin/CppWebAPI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yaroslav4work/.conan/data/boost/1.73.0/_/_/package/d9d3e501899335bccbe5205508f9a4801424ce7d/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/zlib/1.2.11/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/bzip2/1.0.8/_/_/package/da606cf731e334010b0bf6e85a2a6f891b9f36b0/include"/>
+					<Add directory="/home/yaroslav4work/.conan/data/libiconv/1.16/_/_/package/6af9cc7cb931c5ad942174fd7838eb655717c709/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppWebAPI/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpResponse.cpp">
+			<Option target="CppWebAPI"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpResponse.h">
+			<Option target="CppWebAPI"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpServer.cpp">
+			<Option target="CppWebAPI"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/HttpServer/HttpServer.h">
+			<Option target="CppWebAPI"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/main.cpp">
+			<Option target="CppWebAPI"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yaroslav4work/CLionProjects/CppWebAPI/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
